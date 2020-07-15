@@ -1,0 +1,2 @@
+# force deltet for secret
+aws secretsmanager delete-secret --secret-id SFTP/test1 --force-delete-without-recovery --region us-east-2
